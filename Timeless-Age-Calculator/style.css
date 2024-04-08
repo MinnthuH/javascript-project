@@ -1,0 +1,60 @@
+body {
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  background-color: rgb(57, 224, 202);
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(170, 243, 243);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 34px;
+  margin-top: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+input[type='date'] {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(81, 180, 81);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(81, 133, 4);
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 16px;
+}
