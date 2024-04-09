@@ -46,6 +46,10 @@ button {
 button:hover {
   background-color: rgb(5, 5, 5);
 }
+.reset {
+  margin-top: 10px;
+  background-color: rgb(243, 53, 53);
+}
 .result {
   margin-top: 30px;
   font-size: 16px;
